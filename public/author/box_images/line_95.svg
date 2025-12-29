@@ -1,0 +1,6 @@
+<svg viewBox="0 0 221 5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="221.000000" height="5.000000" fill="none" customFrame="#000000">
+	<g id="Line">
+		<rect id="Rectangle 13" width="220.500000" height="4.500000" x="0.250000" y="0.250000" rx="2.250000" stroke="rgb(255,180,0)" stroke-width="0.5" />
+		<path id="Rectangle 16" d="M2.5 1.5L207.5 1.5C208.052 1.5 208.5 1.94763 208.5 2.49989L208.5 2.49989C208.5 3.05221 208.052 3.5 207.5 3.5L2.5 3.5C1.94772 3.5 1.5 3.05228 1.5 2.5C1.5 1.94772 1.94772 1.5 2.5 1.5Z" fill="rgb(255,180,0)" fill-rule="evenodd" />
+	</g>
+</svg>
