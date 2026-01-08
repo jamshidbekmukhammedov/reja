@@ -1,5 +1,28 @@
 console.log("TRAIN AREA!");
 
+
+// TASK E: 
+
+// Shunday function tuzing, u bitta string argumentni 
+// qabul qilib osha stringni teskari qilib return qilsin.
+// MASALAN: getReverse("hello") return qilsin "olleh"
+
+
+function getReverse(reword) {
+  
+  const test = [...reword].reverse().join('');
+  return test;
+}
+
+console.log("Result:", getReverse("hello"));
+
+
+
+
+
+
+
+
 // TASK D : 
 
 // Shunday function tuzing, u 2ta string parametr ega bolsin, 
@@ -8,17 +31,17 @@ console.log("TRAIN AREA!");
 
 // MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true;
 
-function checkContent(exOne, exTwo) {
-  if (exOne.length !== exTwo.length) 
-    return false;
+// function checkContent(exOne, exTwo) {
+//   if (exOne.length !== exTwo.length) 
+//     return false;
 
-  const test1 = [...exOne].sort().join(''); 
-  const test2 = [...exTwo].sort().join('');
+//   const test1 = [...exOne].sort().join(''); 
+//   const test2 = [...exTwo].sort().join('');
 
-  return test1=== test2;
-}
+//   return test1=== test2;
+// }
 
-console.log(checkContent("mitgroup", "gmtiprou"));
+// console.log(checkContent("mitgroup", "gmtiprou"));
 
 
 
