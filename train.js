@@ -1,5 +1,28 @@
 console.log("TRAIN AREA!");
 
+// TASK F:
+
+// Yagona string argumentga ega findDoublers nomli function tuzing
+// Agar stringda bittadan ortiq bir xil harflar ishtirok etgan bo'lsa
+// true yokida false natija qaytarsin.
+
+// MASALAN: findDoublers("hello"); natija true qaytadi. 
+// Sababi ikki marotaba takrorlangan 'll' harfi mavjud!
+
+
+function findDoublers(findLetter) {
+  for (let i = 0; i < findLetter.length - 1; i++) {
+
+    if (findLetter[i] === findLetter[i + 1]) {
+      return true;
+    }
+  }
+  return false;
+}
+
+console.log("Result:", findDoublers("hello"));
+
+
 
 // TASK E: 
 
@@ -8,16 +31,13 @@ console.log("TRAIN AREA!");
 // MASALAN: getReverse("hello") return qilsin "olleh"
 
 
-function getReverse(reword) {
+// function getReverse(reword) {
   
-  const test = [...reword].reverse().join('');
-  return test;
-}
+//   const test = [...reword].reverse().join('');
+//   return test;
+// }
 
-console.log("Result:", getReverse("hello"));
-
-
-
+// console.log("Result:", getReverse("hello"));
 
 
 
@@ -97,7 +117,8 @@ console.log("Result:", getReverse("hello"));
 
 
 // TASK B: 
-// Shunday function tuzing, u 1ta string parametrga ega bolsin, hamda osha stringda qatnashgan raqamlarni sonini bizga return qilsin.
+// Shunday function tuzing, u 1ta string parametrga ega bolsin, hamda 
+// osha stringda qatnashgan raqamlarni sonini bizga return qilsin.
 // MASALAN countDigits("ad2a54y79wet0sfgb9") 7ni return qiladi.
 
 
