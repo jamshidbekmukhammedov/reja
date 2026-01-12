@@ -1,5 +1,35 @@
 console.log("TRAIN AREA!");
 
+
+// TASK G:
+// Yagona parametrga ega function tuzing.
+// Va bu function parametr orqalik integer ma'lumot turlariga 
+// ega bo'lgan bir arrayni qabul qilsin.
+// Ushbu function bizga arrayning tarkibidagi birinchi 
+// eng katta qiymatning indeksini qaytarsin.
+
+// MASALAN: getHighestIndex([5, 21, 12, 21 ,8]); return qiladi 1 sonini
+// Yuqoridagi misolda, birinchi indeksda 21 joylashgan.
+// Va bu 21 soni arrayning tarkibidagi birinchi eng katta 
+// son hisobladi va bizga uning indeksi 1 qaytadi.
+
+function getHighestIndex(num){
+
+    let maxValue = num[0];
+    let index = 0;
+
+    for (let i = 1; i < num.length; i++) {
+        if(num[i] > maxValue) {
+            maxValue = num[i];
+            index = i;
+        }
+    }
+
+    return index;
+}
+
+console.log("Result:", getHighestIndex([5, 21, 12, 21, 8]))
+
 // TASK F:
 
 // Yagona string argumentga ega findDoublers nomli function tuzing
@@ -10,17 +40,18 @@ console.log("TRAIN AREA!");
 // Sababi ikki marotaba takrorlangan 'll' harfi mavjud!
 
 
-function findDoublers(findLetter) {
-  for (let i = 0; i < findLetter.length - 1; i++) {
+// function findDoublers(findLetter) {
+//   for (let i = 0; i < findLetter.length; i++) {
+//     for (let j = i + 1; j < findLetter.length; j++) {
+//       if (findLetter[i] === findLetter[j]) {
+//         return true;
+//       }  
+//     }
+//   }
+//   return false;
+// }
 
-    if (findLetter[i] === findLetter[i + 1]) {
-      return true;
-    }
-  }
-  return false;
-}
-
-console.log("Result:", findDoublers("hello"));
+// console.log("Result:", findDoublers("hello"));
 
 
 
